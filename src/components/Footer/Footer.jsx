@@ -10,7 +10,7 @@ import  "./Footer.css";
 const Contact = () => {
   return (
     
-      <div className="app__contact-container">
+      <div className="app__contact-container" id="contact">
         <div className="app__contact-container_contacts">
           <p className="app__contact-container_contacts-touch">
             Get in Touch
