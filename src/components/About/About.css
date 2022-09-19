@@ -1,0 +1,47 @@
+.aboutMain{
+    height: 500px;
+    width: 100%;
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+    display: flex;
+    padding: 50px;
+}
+.aboutInfo{
+    height: 450px;
+    width: 800px;
+    /* background-color: blueviolet; */
+    padding-top: 70px;
+}
+.aboutInfo>span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.aboutImg{
+    height: 500px;
+    width: 600px;
+    /* background-color: brown; */
+}
+.aboutImg img{
+    height: 500px;
+    width: 600px;
+}
+.about1{
+    font-size: calc(1.1rem + .3vw)!important;
+}
+
+
+/* #hero-main-img {
+    animation: MoveUpDown 3s ease-in-out infinite alternate-reverse both;
+    position:relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+  } */

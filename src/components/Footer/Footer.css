@@ -1,0 +1,49 @@
+.app__contact-container{
+  display: flex;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  padding: 50px;
+}
+
+.app__contact-container_image{
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.app__contact-container_contacts-touch{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.app__contact-container_contacts-links{
+  margin-top: 70px;
+  display: flex;
+        flex-direction: row;
+        gap: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: blue;
+}
+
+.app__contact-container_contacts img{
+  height: 80px;
+  width: 80px;
+}
+
+.app__contact-container_contacts-links img:hover {
+  color: #ff004f;
+  transform: translateY(-7px);
+}
+
+.cont866{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  
+}

@@ -1,0 +1,72 @@
+.portfolio{
+  height: auto;
+  width: 100%;
+  background-color: rgb(232, 248, 255);
+  margin-top: -40px;
+  padding-bottom: 50px;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.port-img{
+  height: 200px;
+  width: 350px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.port img:hover{
+  transform: translateY(-5px);
+}
+
+.port{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  text-align: center;
+  padding-left: 110px;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.layer{
+  text-align: center;
+}
+
+.layer button{
+  gap: 20px;
+}
+
+.port1{
+  height: 390px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.portButt button{
+  
+  width: 130px;
+  height: auto;
+  background-color: #1976D2;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.portButt button:hover{
+  background-color: cornflowerblue;
+}
+
