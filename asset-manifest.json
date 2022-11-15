@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2c3f98c.css",
-    "main.js": "/static/js/main.2e6fa874.js",
+    "main.css": "/static/css/main.42b1b415.css",
+    "main.js": "/static/js/main.2e567795.js",
+    "static/media/zara.png": "/static/media/zara.115e8f6298355c225a09.png",
+    "static/media/myPhoto.jpg": "/static/media/myPhoto.30ada804284f29010763.jpg",
     "static/media/nykaa.png": "/static/media/nykaa.a566dba0d2708c557b34.png",
     "static/media/plural.png": "/static/media/plural.3c132422baf1d116eadc.png",
     "static/media/tmetric.png": "/static/media/tmetric.84780a224c9f7bba40d8.png",
     "static/media/revv.png": "/static/media/revv.d47ccf1f9b07ba4d2829.png",
-    "static/media/resume.pdf": "/static/media/resume.ece4154b54c63adf696d.pdf",
+    "static/media/resume.pdf": "/static/media/resume.7191b7a15256cb60428e.pdf",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/myPhoto.jpg": "/static/media/myPhoto.d0787ec08c8d78db247b.jpg",
     "static/media/Upwork.png": "/static/media/Upwork.ef28a7569ef18dd72579.png",
     "static/media/express.png": "/static/media/express.a7af27fa405c4faec38a.png",
+    "static/media/statistic.png": "/static/media/statistic.1f5e042c00fedef65906.png",
     "static/media/nodejs.png": "/static/media/nodejs.efa9c0b4c365a0f266f1.png",
+    "static/media/github.png": "/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/telephone.png": "/static/media/telephone.fb244201058d6b0c101c.png",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/vkLogo.png": "/static/media/vkLogo.cc45f94c677c0aea6625.png",
     "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/index.html",
-    "main.b2c3f98c.css.map": "/static/css/main.b2c3f98c.css.map",
-    "main.2e6fa874.js.map": "/static/js/main.2e6fa874.js.map"
+    "main.42b1b415.css.map": "/static/css/main.42b1b415.css.map",
+    "main.2e567795.js.map": "/static/js/main.2e567795.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2c3f98c.css",
-    "static/js/main.2e6fa874.js"
+    "static/css/main.42b1b415.css",
+    "static/js/main.2e567795.js"
   ]
 }
