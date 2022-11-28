@@ -8,8 +8,8 @@
   /* scroll */
   align-items: center;
   /* background-color: aqua; */
-  background-color: #fee2f8;
-  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+  /* background-color: #eff7ff; */
+  background-color: #f1f2ff;
 }
 /* left side */
 .awesome {
@@ -116,13 +116,29 @@
   left: 18rem;
   top: 8rem;
 }
+.buttonHire{
+  background-color: rgb(171, 168, 255);
+  margin-top: 70px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  
+}
+.buttonHire:hover{
+  background-color: rgb(108, 99, 255);
+}
+
 
 @media screen and (max-width: 480px) {
+  
   .works {
     flex-direction: column;
-    height: 55rem;
+    height: auto;
     padding: 0;
-    gap: 5rem;
+    gap: 1rem;
+    
   }
 
   .w-right {
@@ -140,20 +156,30 @@
 
 }
 
-.buttonHire{
-  background-color: rgb(254, 121, 73);
-  margin-top: 70px;
-  padding: 10px;
-  width: 100px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  box-shadow: 
-  rgba(240, 82, 46, 0.3) 5px 5px, 
-  rgba(240, 104, 46, 0.2) 10px 10px,
-  rgba(240, 114, 46, 0.1) 15px 15px, 
-  rgba(240, 104, 46, 0.05) 20px 20px;
+
+
+@media screen and (max-width: 768px) {
+  
+  .works {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    gap: 1rem;
+    
+  }
+
+  .w-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content:start;
+    transform: scale(0.7);
+  }
+  .w-mainCircle{
+    position: static;
+  }
+  .w-backCircle{
+    left: 8rem!important;
+  }
+
 }
-.buttonHire:hover{
-  background-color: rgb(244, 177, 153);
-}
+

@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span style={{color: "coral"}}>Skills</span>
+        <span style={{color: "rgb(108, 99, 255)"}}>Skills</span>
         <spane>
         I translate UI/UX design into successful responsive websites that are fast, easy to use, and built with best practices.<br/> 
         The main area of my expertise is front-end development, HTML, CSS, JS, & React. <br/>
@@ -76,7 +76,7 @@ const Services = () => {
             detail={
               "JavaScript, TypeScript"
             }
-            color="rgba(252, 166, 31, 0.45)"
+            // color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
         <div

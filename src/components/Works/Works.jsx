@@ -21,10 +21,10 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span style={{color: "rgb(108, 99, 255)"}}>
             My Experience With 
           </span>
-          <span style={{color: "coral"}}>FrameWorks & Libraries</span>
+          <span style={{color: "black"}}>FrameWorks & Libraries</span>
           <spane>
               The main area of my expertise is front-end development, HTML, CSS, JS, & React.<br/>
               Experience in working on multiple Backened platforms like Node, Express, MongoDB, Postman.

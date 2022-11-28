@@ -1,11 +1,11 @@
 .Intro {
   display: flex;
-  height: 70vh;
-  margin-top: -40px;
-  background-color: #fee2f8;
-  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+  height: auto;
+  margin-top: 60px;
   padding: 50px;
   padding-top: 100px;
+  background-color: #f1f2ff;
+  
 }
 
 /* left side styling */
@@ -43,20 +43,16 @@
   
 }
 .buttonCont{
-  background-color: rgb(254, 121, 73);
+  background-color: rgb(171, 168, 255);
   padding: 10px;
   width: 100px;
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  box-shadow: 
-  rgba(240, 82, 46, 0.3) 5px 5px, 
-  rgba(240, 104, 46, 0.2) 10px 10px,
-  rgba(240, 114, 46, 0.1) 15px 15px, 
-  rgba(240, 104, 46, 0.05) 20px 20px;
+  
 }
 .buttonCont:hover{
-  background-color: rgb(244, 177, 153);
+  background-color: rgb(108, 99, 255);
 }
 
 .i-icons {
@@ -115,11 +111,30 @@
   filter: blur(72px);
 }
 
+#myPhoto{
+  height: 550px;
+  width: 450px;
+  margin-left: 180px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.myEmoje{
+  height: 180px;
+  width: 200px;
+}
+
+.i-icons img{
+   height: 150px;
+}
+
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    justify-content: center;
+    margin-top: 20px;
   }
 
   .i-right {
@@ -129,24 +144,61 @@
   .i-right .blur {
     display: none;
   }
-  /* .floating-div:nth-of-type(1){
+  .i-right {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 70px;
     
-    top: -7rem !important;;
-  } */
-}
-.myPhoto{
-  height: 450px;
-  width: 400px;
-  margin-left: 180px;
-  border-radius: 100px;
-}
-
-.myEmoje{
-  height: 200px;
-  width: 200px;
+    text-align: center;
+    
+  }
+  #myPhoto{
+    margin-left: 10%;
+    width: 400px;
+    
+    
+  }
 }
 
-/* .myEmojeCrown{
-  height: 10px;
-  width: 70px;
-} */
+
+@media screen and (max-width: 768px) {
+  .Intro {
+    flex-direction: column;
+    gap: 2rem;
+    height: 64rem;
+    justify-content: center;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: 0rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+  .i-right {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-right: 200px;
+    border-radius: 70px;
+    
+    text-align: center;
+    
+  }
+  #myPhoto{
+    margin-left: 50px;
+    width: 400px;
+    
+    
+  }
+}
+
+
+
+
+

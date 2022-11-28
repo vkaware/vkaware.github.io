@@ -7,7 +7,7 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
+import github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
@@ -30,7 +30,7 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
-          <span style={{color: "coral"}}>Vaibhav Kaware</span>
+          <span style={{color: "rgb(108, 99, 255)"}}>Vaibhav Kaware</span>
           <span></span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,20 +39,20 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href = {gurl}>
-          <img src={Github} alt="" />
+          <img src={github} alt="" />
           </a>
           <a href = 'https://www.linkedin.com/in/vaibhav-kaware-893a801ab'>
           <img src={LinkedIn} alt="" />
           </a>
-          <a href ='https://www.instagram.com/invites/contact/?i=1au6ro7ptb0mc&utm_content=1lfsqxx'> 
+          {/* <a href ='https://www.instagram.com/invites/contact/?i=1au6ro7ptb0mc&utm_content=1lfsqxx'> 
           <img src={Instagram} alt="" />
-          </a>
+          </a> */}
           
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img className="myPhoto" src={myPhoto} alt="" />
+        <img id="myPhoto" src={myPhoto} alt="" />
         
         
         <motion.img
@@ -83,7 +83,7 @@ const Intro = () => {
           // className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv className="myEmoje" img={thumbup} text1="" text2="" />
+          <FloatinDiv id="thumbup" img={thumbup}  />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

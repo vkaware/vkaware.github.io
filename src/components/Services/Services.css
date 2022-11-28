@@ -7,8 +7,8 @@
   margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
-  background-color: #fee2f8;
-  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+  /* background-color: #eff7ff; */
+  background-color: #f1f2ff;
 
   /* background-color: aquamarine; */
 }
@@ -26,12 +26,12 @@
   font-weight: bold;
 }
 .awesome > :nth-child(2) {
-  color: var(--orange);
+  /* color: var(--orange); */
   font-size: 2.5rem;
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
-  color: var(--gray);
+  /* color: var(--gray); */
   font-size: 14px;
   margin-top: 1rem;
 }
@@ -43,6 +43,7 @@
 /* right sided */
 .cards {
   position: relative;
+  border-radius: 7px solid red;
   
 }
 .cards > * {
@@ -81,20 +82,39 @@
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 0;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}
+
 .buttonCv{
-  background-color: rgb(254, 121, 73);
+  background-color: rgb(171, 168, 255);
   margin-top: 100px;
   padding: 10px;
   width: 150px;
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  box-shadow: 
-  rgba(240, 82, 46, 0.3) 5px 5px, 
-  rgba(240, 104, 46, 0.2) 10px 10px,
-  rgba(240, 114, 46, 0.1) 15px 15px, 
-  rgba(240, 104, 46, 0.05) 20px 20px;
+  
 }
 .buttonCv:hover{
-  background-color: rgb(244, 177, 153);
+  background-color: rgb(108, 99, 255);
 }
+

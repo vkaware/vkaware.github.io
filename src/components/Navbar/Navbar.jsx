@@ -1,14 +1,19 @@
 import React from "react";
-import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import Resume from './resume.pdf';
+import vkLogo from "../../img/vkLogo.png";
+
+
 const navbar = () => {
   return (
-    <div className="n-wrapper" id="Navbar">
+    <div className="n-wrapper" >
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Vaibhav</div>
-        <Toggle />
+        <div className="n-name">
+          <img src={vkLogo} alt="" />
+        </div>
+        
       </div>
       {/* right */}
       <div className="n-right">
@@ -46,9 +51,11 @@ const navbar = () => {
             </li> */}
           </ul>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-        <button className="buttonCont">Resume</button>
-        </Link>
+       
+        <a href={Resume} download>
+          <button className="buttonCont">Resume</button>
+        </a>
+        
       </div>
     </div>
   );

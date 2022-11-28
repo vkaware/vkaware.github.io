@@ -10,8 +10,8 @@ const About = () => {
     return(
         <div className="aboutMain" id="about">
             
-                <div className="aboutInfo">
-                <span className="aboutA" style={{color: darkMode?'white': ''}}>About</span>
+                <div className="aboutInfo" >
+                <span className="aboutA"  style={{color: "rgb(108, 99, 255)"}}>About</span>
                 <p className="about1">⚡I enjoy developing websites and a keen interest in solving problems and coming up with effective solutions.</p>
                 <p className="about1">⚡Enjoy building responsive websites (frontend) using ReactJS, Bootstrap, ChkraUI etc.</p>
                 <p className="about1">⚡Experience in working on multiple Backened platforms like Node, Express, MongoDB</p>
